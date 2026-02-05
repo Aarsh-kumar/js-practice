@@ -28,3 +28,8 @@ console.log(booleanIsLogedOUT);
 //(null) => false
 //(undefined) => false
 //(NaN) => false
+
+let anynumber = 123;
+let stringNumber = String(anynumber);
+console.log(typeof stringNumber);
+console.log(stringNumber);

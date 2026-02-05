@@ -5,13 +5,26 @@ console.log(typeof score);
 let ValueInnumber = Number(score);
 console.log(typeof ValueInnumber);
 
-//number to null
-let newscore = null;
-console.log(typeof newscore);
+//"100abc" => NaN => not a number
+//"100" => 100
+// true => 1
+// false => 0
 
-//string to float
-let marks = "99.99";
-console.log(typeof marks);
-let marksInFloat = parseFloat(marks);
-console.log(typeof marksInFloat);
-console.log(marksInFloat);
+let isLoggedIn = "1";
+
+let booleanIsLoggedIn = Boolean(isLoggedIn);
+console.log(booleanIsLoggedIn);
+
+let isLogedOUT = "";
+
+let booleanIsLogedOUT = Boolean(isLogedOUT);
+console.log(booleanIsLogedOUT);
+
+//("") => false
+//(" ") => true
+//("0") => true
+//(0) => false
+//(1) => true
+//(null) => false
+//(undefined) => false
+//(NaN) => false

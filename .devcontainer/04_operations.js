@@ -42,3 +42,4 @@ console.log(gameCounter);
 // learn prefix and postfix from js mdn documentation
 // prefix => first increment then use the value
 // postfix => first use the value then increment
+// ++gameCounter => gameCounter = gameCounter + 1 => gameCounter ki value 101 ho jayegi and then usko use karega
